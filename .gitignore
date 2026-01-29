@@ -1,0 +1,25 @@
+# Dependências do PHP 
+/vendor/
+
+# Configurações sensíveis (Contém senhas do banco de dados)
+.env
+.env.backup
+.env.production
+
+# Pastas do Sistema e IDEs
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Logs e Cache
+/storage/*.key
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+.phpunit.result.cache
+
+# Pastas de build 
+/public/build/
+/public/storage
