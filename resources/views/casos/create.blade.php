@@ -51,7 +51,7 @@
             <div class="col-md-8">
                 <div class="card shadow-lg border-0">
                     <div class="card-header bg-success text-white p-3">
-                        <h4 class="mb-0">Médico: Registar Novo Caso (CU-04)</h4>
+                        <h4 class="mb-0">Médico: Registar Novo Caso</h4>
                     </div>
                     <div class="card-body p-4">
 
@@ -93,7 +93,7 @@
                             </div>
 
                             <div class="mb-4">
-                                <label class="form-label fw-bold">Doença Diagnosticada (RF-02)</label>
+                                <label class="form-label fw-bold">Doença Diagnosticada</label>
                                 <select name="doenca_id" class="form-control form-select" required>
                                     <option value="">Selecione a patologia...</option>
                                     @foreach($doencas as $doenca)

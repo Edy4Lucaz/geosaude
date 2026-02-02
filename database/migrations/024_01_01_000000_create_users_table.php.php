@@ -15,7 +15,7 @@ public function up(): void {
         $table->string('password');
         $table->integer('role')->default(2); 
         $table->string('provincia')->nullable();
-        $table->string('municipio')->nullable(); // ADICIONE ESTA LINHA
+        $table->string('municipio')->nullable(); // ADICIONEI ESSALINHA
         $table->rememberToken();
         $table->timestamps();
         $table->softDeletes();

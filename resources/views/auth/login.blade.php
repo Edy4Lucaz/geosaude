@@ -63,8 +63,8 @@
                     </form>
                 </div>
                 <div class="text-center mt-3">
-                    <a href="{{ route('noticias.index') }}" class="text-decoration-none text-muted small">← Voltar para
-                        Notícias</a>
+                    <a href="{{ route('home') }}" class="text-decoration-none text-muted small">← Voltar para
+                        página inicial</a>
                 </div>
             </div>
         </div>

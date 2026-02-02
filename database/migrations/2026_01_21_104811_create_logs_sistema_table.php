@@ -13,7 +13,7 @@ public function up()
 {
     Schema::create('logs_sistema', function (Blueprint $table) {
         $table->id();
-        $table->unsignedBigInteger('user_id')->nullable(); // Certifica-te que esta linha existe
+        $table->unsignedBigInteger('user_id')->nullable(); // Para o softdelete
         $table->string('acao');
         $table->text('detalhes');
         $table->string('tipo');

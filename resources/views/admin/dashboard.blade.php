@@ -203,7 +203,7 @@
                         </ul>
                     </div>
                     <div class="card-footer bg-white text-center">
-                        <a href="{{ route('admin.logs') }}" class="small text-success text-decoration-none fw-bold">Ver
+                        <a href="#" class="small text-success text-decoration-none fw-bold">Ver
                             todos os logs históricos</a>
                     </div>
                 </div>

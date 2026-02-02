@@ -11,8 +11,6 @@ use Illuminate\Support\Facades\Auth;
 
 class CasoController extends Controller
 {
-    // REMOVA o public function __construct() daqui
-
     public function create()
     {
         $doencas = Doenca::all();
@@ -22,7 +20,6 @@ class CasoController extends Controller
     public function store(Request $request)
     {
         $userIdLogado = Auth::id();
-        // ... resto do seu código igual ao anterior
 
         $localidade = "{$request->bairro}, {$request->municipio}, {$request->provincia}, Angola";
 

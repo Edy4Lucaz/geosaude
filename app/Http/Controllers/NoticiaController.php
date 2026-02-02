@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http; // ESTA LINHA É A QUE FALTA!
+use Illuminate\Support\Facades\Http; 
 
 class NoticiaController extends Controller
 {
